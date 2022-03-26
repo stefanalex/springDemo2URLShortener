@@ -46,4 +46,25 @@ Constraints
   
   
 
+### API
 
+1. understand the ALL requirements 
+2. respond only the requirements
+3. put question - is this what you want , can you give more details ..
+4. made with pseudocode to clarify
+5. imagine edge cases 
+
+
+URL = http://www.domain.com/article/subarticle1    - any URL
+short code 
+
+    ShortCode[4] createShortCode(URL givenURL) -> WebAPI  POST /PUT - update
+          checkIfExists
+          
+    
+    HTTPReturnCode<302> redirectToURL(String shortCode)
+    
+    
+     ShortCode[4] createShortCode(URL givenURL) - write to DB
+     HTTPReturnCode<302> redirectToURL(String shortCode) - read from DB
+     

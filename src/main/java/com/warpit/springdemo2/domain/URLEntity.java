@@ -10,7 +10,7 @@ public class URLEntity {
 	private String protocol;
 	
 	@Column
-	private Domain doomain;
+	private URLDomain domain;
 	
 		
 	@Column
